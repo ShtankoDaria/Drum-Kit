@@ -34,7 +34,7 @@
 
 ## Handlers
 
-| syntax               | parameters | return value                   | behavior                                                                                                                                        |
-| -------------------- | ---------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| `removeTransition()` | event      | Stopped animation              | reads user input save current value and verify if this input value is _NaNy_ or _Numbery_ and then _Even_ or _Odd_ one, alerts the browser 'OK' |
-| `playSound()`        | event      | Predefined sound and animation | Check event and apply an appropriate sound and animation to the selected key                                                                    |
+| syntax               | parameters | return value                   | behavior                                                                     |
+| -------------------- | ---------- | ------------------------------ | ---------------------------------------------------------------------------- |
+| `removeTransition()` | event      | Stopped animation              | Checked event and stopped transition                                         |
+| `playSound()`        | event      | Predefined sound and animation | Check event and apply an appropriate sound and animation to the selected key |
