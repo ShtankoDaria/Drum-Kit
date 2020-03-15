@@ -1,4 +1,4 @@
-# JavaScript-30
+# Drum Kit
 
 ##1 Drum kit exercise
 
