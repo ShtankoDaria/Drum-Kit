@@ -9,11 +9,12 @@ function playSound(e) {
   key.classList.add("playing");
 }
 
-function removeTransition(e) {
-  if (e.propertyName !== "transition") return;
-  this.classList.remove("playing");
-}
+  function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    e.target.classList.remove('playing');
+  }
 
 const keys = document.querySelectorAll(".key");
 keys.forEach(key => key.addEventListener("transitionend", removeTransition));
 
+  
